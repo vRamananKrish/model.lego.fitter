@@ -1,5 +1,8 @@
 package com.kanithan.classifier;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;
@@ -33,6 +36,8 @@ public class ModelLegoFitter {
 	private DataFrame trainingSet;
 	private DataFrame testSet;
 
+	private String[] columns;
+	
 	private DataFrame dataSet;
 
 	final static Logger logger = Logger.getLogger(ModelLegoFitter.class);
@@ -41,8 +46,11 @@ public class ModelLegoFitter {
 
 	}
 
-	public ModelLegoFitter(String fileName, float train, float test) {
+	public ModelLegoFitter(String fileName, float train, float test, String...columns) {
 
+		// assigning the columns
+		this.columns = columns;
+		
 		// Initialize the ModelLegoFitter
 		init(fileName, train, test);
 
@@ -75,7 +83,7 @@ public class ModelLegoFitter {
 		featureSelection(data);
 
 		// Initialize the LabelIndexer
-		DataFrame indxedVector = featureSelection(data);
+		DataFrame indxedVector = featureIndexer(data, this.columns);
 
 		indxedVector.printSchema();
 
@@ -112,6 +120,33 @@ public class ModelLegoFitter {
 				.setOutputCol("features");
 
 		return classIndx;
+	}
+	
+	/**
+	 * Feature selection indexer based on the given column name
+	 * 
+	 * */
+	public DataFrame featureIndexer(DataFrame inputData, String...columns){
+		
+		DataFrame indexedFrame = inputData;
+		List<String> indexCols = new ArrayList<String>();
+		
+		
+		for(String column: columns){
+			indexedFrame = new StringIndexer().setInputCol(column).setOutputCol(column+"Indx").fit(indexedFrame).transform(indexedFrame);
+			indexCols.add(column+"Indx");
+			
+		}
+		
+		String[] indexArr = new String[indexCols.size()];
+		indexArr = indexCols.toArray(indexArr);
+		
+		this.vectorAssembler = new VectorAssembler()
+				.setInputCols(indexArr)
+				.setOutputCol("features");
+		
+		return indexedFrame;
+		
 	}
 
 	/**

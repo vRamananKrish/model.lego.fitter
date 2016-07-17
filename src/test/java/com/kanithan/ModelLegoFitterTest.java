@@ -6,7 +6,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.kanithan.classifier.DecisionTree;
 import com.kanithan.classifier.ModelLegoFitter;
 
 /**
@@ -19,7 +18,6 @@ public class ModelLegoFitterTest implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private DecisionTree decisionTree;
 	private ModelLegoFitter modelLegoFitter;
 	
 
@@ -30,7 +28,9 @@ public class ModelLegoFitterTest implements Serializable {
 		
 		System.out.println("File input : "+ fileName);
 		
-		modelLegoFitter = new ModelLegoFitter(fileName, 0.8f, 0.2f);
+		String[] columns = {"sepallength", "sepalwidth", "petallength", "petalwidth", "class"};
+		
+		modelLegoFitter = new ModelLegoFitter(fileName, 0.8f, 0.2f, columns);
 	}
 
 	@After
@@ -39,7 +39,7 @@ public class ModelLegoFitterTest implements Serializable {
 	}
 
 	@Test
-	public void testLoadData() {
+	public void testEvaluate() {
 
 //		double accuracy = decisionTree.evaluateAndPredict();
 		
