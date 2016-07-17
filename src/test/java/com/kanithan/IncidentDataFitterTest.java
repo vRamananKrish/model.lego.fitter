@@ -11,7 +11,7 @@ import com.kanithan.classifier.ModelLegoFitter;
 /**
  * Unit test for simple App.
  */
-public class ModelLegoFitterTest implements Serializable {
+public class IncidentDataFitterTest implements Serializable {
 
 	/**
 	 * 
