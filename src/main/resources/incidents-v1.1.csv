@@ -1,0 +1,188 @@
+Incident CI Primary,Incident State,Incident Priority,Incident Impact,Incident Urgency,Incident Previous State,Incident Knowledge Article Reference,Incident Closure Code,Incident Symptom Code
+
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48302, Data, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB28622, Data, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB31179, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , External, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27390, Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27390, Configuration, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB107213, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.60, Solved Confirmed, KB48302, Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.249, 0.20, 0.60, Solved Confirmed, KB27390, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27009, External, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, External, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB45819, Configuration, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB29781, No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB70996, Suggested SS/FLF, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48163, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, Configuration, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, Configuration, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.60, Solved Confirmed, KB0168455, External, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30350, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0161503, User Error, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB28622, Configuration, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23458, Cancelled, Data Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB29255, Data, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Troubleshooting Fix, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB104137, No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30781, Configuration, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Configuration, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB64777, User Error, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0167876, Configuration, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48302, Data, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, User Error, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Data, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48163, Configuration, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23443, Suggested SS/FLF, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48163, Configuration, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27009, Suggested SS/FLF, Facilities Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB31304, Suggested SS/FLF, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB45819, Suggested SS/FLF, Access/Authentication
+ 1, 0.99, 0.249, 0.20, 0.60, Solved Confirmed, , Suggested SS/FLF, Data Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23682, Suggested SS/FLF, Performance
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30304, Suggested SS/FLF, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27020, No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0177838, Troubleshooting Fix, Monitoring
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23682, Troubleshooting Fix, Unavailable
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, Data Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0179487, Troubleshooting Fix, Capacity Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30350, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Configuration, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0177838, Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.80, Solved Proposed, , Troubleshooting Fix, Performance
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0179922, External, Data Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0172573, No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, Data Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Configuration, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27020, User Error, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , User Error, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.249, 0.20, 0.60, Solved Confirmed, KB96192, Configuration, Unavailable
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Configuration, Performance
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB110138, User Error, Capacity Issue
+ 1, 0.99, 0.249, 0.20, 0.60, Solved Confirmed, KB0172952, Configuration, Capacity Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30350, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30304, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB31179, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , User Error, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB31179, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48163, User Error, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB31179, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27020, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.99, Solved Confirmed, , Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.80, Solved Confirmed, KB0183783, Troubleshooting Fix, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0183838, Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.80, Solved Confirmed, , Troubleshooting Fix, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0172573, Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , External, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB45819, Configuration, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.80, Solved Confirmed, KB86690, Troubleshooting Fix, Performance
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB86690, Troubleshooting Fix, Performance
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB29781, Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Configuration, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Data, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27390, Data, Data Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Data, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48163, User Error, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30781, Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.249, 0.20, 0.60, Solved Confirmed, KB36123, Troubleshooting Fix, Unavailable
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23682, No Fault Found, Performance
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB40874, Suggested SS/FLF, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , External, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23674, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23674, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, 0.99, KB30350, Suggested SS/FLF, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Capacity, Capacity Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27020, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, 0.99, , External, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, 0.99, KB23630, Troubleshooting Fix, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, 0.99, , Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Performance
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0177938, Troubleshooting Fix, Performance
+ 1, 0.99, 0.499, 0.398, 0.398, Awaiting Assignment, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, 0.99, KB104497, Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB23564, Suggested SS/FLF, Data Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , No Fault Found, Monitoring
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0180849, Troubleshooting Fix, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB23443, Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0177838, Troubleshooting Fix, Performance
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0168455, Configuration, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Configuration, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Suggested SS/FLF, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0177838, Troubleshooting Fix, Unavailable
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Cancelled, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Data Issue
+ 1, 0.99, 0.499, 0.398, 0.80, Solved Proposed, , Configuration, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Configuration, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.60, Solved Proposed, , Troubleshooting Fix, Batch Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Configuration, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Suggested SS/FLF, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Suggested SS/FLF, General Error
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Data Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Configuration, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Data Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB23466, Configuration, Access/Authentication
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0177838, Troubleshooting Fix, Performance
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Configuration Issue
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, , Technical Failure, Unavailable
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0177838, Troubleshooting Fix, Unavailable
+ 1, 0.99, 0.499, 0.398, 0.398, Solved Proposed, KB27009, Troubleshooting Fix, General Error

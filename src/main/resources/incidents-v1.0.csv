@@ -1,0 +1,187 @@
+refno,state,priority,impact,urgency,prev_state,ka_ref,closure_code,symptom_code
+INC0000332396,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC000034589   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48302, Data, Batch Issue
+INC0000376109,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, Configuration Issue
+INC0000388582,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC0000394223,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB28622, Data, Batch Issue
+INC0000399300,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB31179, Suggested SS/FLF, General Error
+INC0000437318,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , External, Access/Authentication
+INC000044970   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27390, Troubleshooting Fix, Configuration Issue
+INC0000499707,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27390, Configuration, General Error
+INC000051280   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB107213, Suggested SS/FLF, General Error
+INC0000533843,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, Batch Issue
+INC0000543268,   0.99, 0.499, 0.398, 0.60, Solved Confirmed, KB48302, Cancelled, General Error
+INC0000554042,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC000057380   0.99, 0.249, 0.20, 0.60, Solved Confirmed, KB27390, Suggested SS/FLF, General Error
+INC0000588387,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC0000596304,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27009, External, Batch Issue
+INC0000639626,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, External, Batch Issue
+INC0000649905,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB45819, Configuration, Access/Authentication
+INC0000657247,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, General Error
+INC0000681685,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, Suggested SS/FLF, General Error
+INC000073723   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB2978 No Fault Found, General Error
+INC0000740502,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB70996, Suggested SS/FLF, Configuration Issue
+INC0000753633,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48163, Suggested SS/FLF, General Error
+INC0000791766,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, Troubleshooting Fix, General Error
+INC0000873488,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, Configuration, General Error
+INC0000903123,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, Configuration, Batch Issue
+INC0000909973,   0.99, 0.499, 0.398, 0.60, Solved Confirmed, KB0168455, External, Batch Issue
+INC0000931895,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30350, Suggested SS/FLF, General Error
+INC0000990112,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0161503, User Error, General Error
+INC0001089232,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB28622, Configuration, Batch Issue
+INC000109220   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23458, Cancelled, Data Issue
+INC000110989   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, No Fault Found, General Error
+INC0001115093,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB29255, Data, General Error
+INC0001131976,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Troubleshooting Fix, Batch Issue
+INC0001144325,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB104137, No Fault Found, General Error
+INC000115153   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB3078 Configuration, Configuration Issue
+INC0001155222,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Configuration, General Error
+INC0001159737,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB64777, User Error, General Error
+INC0001164124,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0167876, Configuration, Configuration Issue
+INC0001191037,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48302, Data, Configuration Issue
+INC0001194849,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, User Error, General Error
+INC0001196062,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Data, Batch Issue
+INC000120237   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48163, Configuration, Access/Authentication
+INC0001299165,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23443, Suggested SS/FLF, Configuration Issue
+INC0001303512,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48163, Configuration, Access/Authentication
+INC0001346166,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27009, Suggested SS/FLF, Facilities Issue
+INC0001400377,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB31304, Suggested SS/FLF, Access/Authentication
+INC000142601   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB45819, Suggested SS/FLF, Access/Authentication
+INC0001516422,   0.99, 0.249, 0.20, 0.60, Solved Confirmed, , Suggested SS/FLF, Data Issue
+INC0001517736,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23682, Suggested SS/FLF, Performance
+INC0001634298,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30304, Suggested SS/FLF, Access/Authentication
+INC0001641256,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27020, No Fault Found, General Error
+INC0001667364,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0177838, Troubleshooting Fix, Monitoring
+INC0001732644,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23682, Troubleshooting Fix, Unavailable
+INC0001735012,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, Data Issue
+INC0001750456,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, General Error
+INC0001785044,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0179487, Troubleshooting Fix, Capacity Issue
+INC0001789645,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30350, Troubleshooting Fix, General Error
+INC0001799754,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, General Error
+INC0001799918,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Configuration, Configuration Issue
+INC0001815769,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0177838, Troubleshooting Fix, Configuration Issue
+INC0001838973,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, General Error
+INC0001847345,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Suggested SS/FLF, General Error
+INC0001853288,   0.99, 0.499, 0.398, 0.80, Solved Proposed, , Troubleshooting Fix, Performance
+INC0001899849,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0179922, External, Data Issue
+INC0002132070,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, General Error
+INC0002162642,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0172573, No Fault Found, General Error
+INC0002165546,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, Data Issue
+INC0002175662,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Configuration, General Error
+INC0002176098,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, General Error
+INC0002176900,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27020, User Error, General Error
+INC0002177720,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , User Error, General Error
+INC0002178563,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, General Error
+INC0002184118,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, No Fault Found, General Error
+INC000219476   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, Access/Authentication
+INC0002210579,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC0002228192,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC0002228197,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC0002228816,   0.99, 0.249, 0.20, 0.60, Solved Confirmed, KB96192, Configuration, Unavailable
+INC0002231700,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, General Error
+INC0002232000,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Suggested SS/FLF, General Error
+INC0002245382,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, Configuration Issue
+INC0002251449,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Configuration, Performance
+INC0002253277,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB41917, Suggested SS/FLF, General Error
+INC0002265398,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC0002307553,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB110138, User Error, Capacity Issue
+INC0002333313,   0.99, 0.249, 0.20, 0.60, Solved Confirmed, KB0172952, Configuration, Capacity Issue
+INC0002371684,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30350, Suggested SS/FLF, General Error
+INC0002373136,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC0002388054,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC000240722   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, General Error
+INC0002417132,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, Batch Issue
+INC0002421420,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC0002433989,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB30304, Suggested SS/FLF, General Error
+INC0002437562,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC0002444158,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, General Error
+INC000246914   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB31179, Troubleshooting Fix, General Error
+INC0002477634,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC0002482845,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , User Error, General Error
+INC0002491675,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB31179, Troubleshooting Fix, General Error
+INC0002553225,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48163, User Error, Access/Authentication
+INC0002559998,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC0002562748,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, Configuration Issue
+INC0002569105,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC0002587147,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC000258716   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , No Fault Found, General Error
+INC0002594044,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB31179, Troubleshooting Fix, General Error
+INC000262235   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27020, Suggested SS/FLF, General Error
+INC0002623030,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC0002629396,   0.99, 0.499, 0.398, 0.99, Solved Confirmed, , Troubleshooting Fix, General Error
+INC000263448   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC0002646116,   0.99, 0.499, 0.398, 0.80, Solved Confirmed, KB0183783, Troubleshooting Fix, Batch Issue
+INC0002647090,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0183838, Troubleshooting Fix, Configuration Issue
+INC0002667572,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, General Error
+INC0002680607,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, Configuration Issue
+INC0002682990,   0.99, 0.499, 0.398, 0.80, Solved Confirmed, , Troubleshooting Fix, Batch Issue
+INC0002683493,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, Batch Issue
+INC0002684280,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0172573, Troubleshooting Fix, Configuration Issue
+INC0002688492,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC0002709212,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , External, General Error
+INC0002713217,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC0002718004,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC000273885   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB45819, Configuration, Configuration Issue
+INC0002760195,   0.99, 0.499, 0.398, 0.80, Solved Confirmed, KB86690, Troubleshooting Fix, Performance
+INC0002762477,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB86690, Troubleshooting Fix, Performance
+INC0002771936,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB2978 Troubleshooting Fix, Configuration Issue
+INC0002783450,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC0002790266,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, Configuration Issue
+INC0002796004,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Configuration, General Error
+INC0002815208,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Data, Batch Issue
+INC0002817018,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27390, Data, Data Issue
+INC0002831437,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Data, General Error
+INC0002878159,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Troubleshooting Fix, Configuration Issue
+INC0002883569,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, General Error
+INC0002895658,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB48163, User Error, Access/Authentication
+INC0002940352,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Suggested SS/FLF, Configuration Issue
+INC0002971344,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB3078 Troubleshooting Fix, Configuration Issue
+INC0002974109,   0.99, 0.249, 0.20, 0.60, Solved Confirmed, KB36123, Troubleshooting Fix, Unavailable
+INC000301540   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, Access/Authentication
+INC0003030967,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC000304547   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23682, No Fault Found, Performance
+INC0003065702,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB40874, Suggested SS/FLF, Configuration Issue
+INC0003091074,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB96726, Troubleshooting Fix, Configuration Issue
+INC0003154842,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB0168455, Suggested SS/FLF, General Error
+INC0003199190,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , External, Batch Issue
+INC0003212146,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23674, Troubleshooting Fix, General Error
+INC0003212682,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB23674, Troubleshooting Fix, General Error
+INC0003228527,   0.99, 0.499, 0.398, 0.398, 0.99, KB30350, Suggested SS/FLF, Configuration Issue
+INC0003231547,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Capacity, Capacity Issue
+INC000324228   0.99, 0.499, 0.398, 0.398, Solved Confirmed, KB27020, Suggested SS/FLF, General Error
+INC0003251477,   0.99, 0.499, 0.398, 0.398, Solved Confirmed, , Cancelled, General Error
+INC000325484   0.99, 0.499, 0.398, 0.398, 0.99, , External, Batch Issue
+INC0003284439,   0.99, 0.499, 0.398, 0.398, 0.99, KB23630, Troubleshooting Fix, General Error
+INC0003292210,   0.99, 0.499, 0.398, 0.398, 0.99, , Troubleshooting Fix, Configuration Issue
+INC0003333442,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Performance
+INC0003353998,   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0177938, Troubleshooting Fix, Performance
+INC0003355073,   0.99, 0.499, 0.398, 0.398, Awaiting Assignment, , Cancelled, General Error
+INC0003366628,   0.99, 0.499, 0.398, 0.398, 0.99, KB104497, Troubleshooting Fix, Configuration Issue
+INC0003394282,   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB23564, Suggested SS/FLF, Data Issue
+INC0003404244,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , No Fault Found, Monitoring
+INC0003406744,   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0180849, Troubleshooting Fix, Batch Issue
+INC0003412953,   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB23443, Suggested SS/FLF, General Error
+INC0003443046,   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0177838, Troubleshooting Fix, Performance
+INC0003444113,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Configuration Issue
+INC0003444144,   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0168455, Configuration, Configuration Issue
+INC0003444196,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Configuration, Configuration Issue
+INC0003444829,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Suggested SS/FLF, Configuration Issue
+INC0003445280,   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0177838, Troubleshooting Fix, Unavailable
+INC0003448724,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Cancelled, General Error
+INC000344877   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Data Issue
+INC0003449574,   0.99, 0.499, 0.398, 0.80, Solved Proposed, , Configuration, Configuration Issue
+INC0003449707,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Configuration, Configuration Issue
+INC0003452818,   0.99, 0.499, 0.398, 0.60, Solved Proposed, , Troubleshooting Fix, Batch Issue
+INC0003464963,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Configuration, Configuration Issue
+INC0003470107,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Suggested SS/FLF, Configuration Issue
+INC0003472490,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Configuration Issue
+INC0003472728,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Suggested SS/FLF, General Error
+INC0003477597,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Data Issue
+INC0003486575,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Configuration, Configuration Issue
+INC0003488274,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Data Issue
+INC000349293   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB23466, Configuration, Access/Authentication
+INC000354214   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0177838, Troubleshooting Fix, Performance
+INC0003544628,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Troubleshooting Fix, Configuration Issue
+INC0003544960,   0.99, 0.499, 0.398, 0.398, Solved Proposed, , Technical Failure, Unavailable
+INC0003545006,   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB0177838, Troubleshooting Fix, Unavailable
+INC0003590938,   0.99, 0.499, 0.398, 0.398, Solved Proposed, KB27009, Troubleshooting Fix, General Error
