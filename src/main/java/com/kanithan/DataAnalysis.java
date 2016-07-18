@@ -1,20 +1,24 @@
 package com.kanithan;
 
-import com.kanithan.classifier.DecisionTree;
+import com.kanithan.classifier.ModelLegoFitter;
 
 public class DataAnalysis {
-	
+
 	public static void main(String[] args) {
-		
+
 		float trainSplit = 0.8f;
 		float testSplit = 0.2f;
-		
-		DecisionTree decisionTree = new DecisionTree(args[0], trainSplit, testSplit);
-		
-		double accuracy = decisionTree.evaluateAndPredict();
-		
-		System.out.println("Precision Accuracy value : "+ accuracy);
+
+		String[] columns = { "priority", "ka_ref", "closure_code", "class" };
+
+		ModelLegoFitter modelLegoFitter = new ModelLegoFitter(args[0], trainSplit, testSplit, columns);
+
+		double dtAccuracy = modelLegoFitter.evaluateAndPredict("DecisionTree");
+
+		double rfAccuracy = modelLegoFitter.evaluateAndPredict("RandomForestClassifier");
+
+		System.out
+				.println("Precision Accuracy value of Decision Tree : " + dtAccuracy + ", Random Forest:" + rfAccuracy);
 	}
-	
-	
+
 }

@@ -11,6 +11,7 @@ import org.apache.spark.ml.PipelineModel;
 import org.apache.spark.ml.PipelineStage;
 import org.apache.spark.ml.classification.DecisionTreeClassifier;
 import org.apache.spark.ml.classification.LogisticRegression;
+import org.apache.spark.ml.classification.RandomForestClassifier;
 import org.apache.spark.ml.evaluation.Evaluator;
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator;
 import org.apache.spark.ml.evaluation.RegressionEvaluator;
@@ -76,67 +77,52 @@ public class ModelLegoFitter {
 	public void loadDataSet(String fileName, float train, float test) {
 		logger.info("Loading the data.... -" + fileName + " with a split:" + train + " & " + test);
 
-		DataFrame data = sqlContext.read().format("com.databricks.spark.csv").option("header", "true").load(fileName);
+		DataFrame dataSet = sqlContext.read().format("com.databricks.spark.csv").option("header", "true").load(fileName);
 
-		data.printSchema();
-
-		featureSelection(data);
+		dataSet.printSchema();
 
 		// Initialize the LabelIndexer
-		DataFrame indxedVector = featureIndexer(data, this.columns);
+		DataFrame indexedFeature = featureIndexer(dataSet, this.columns);
 
-		indxedVector.printSchema();
+//		indxedVector.printSchema();
 
-		DataFrame[] splits = indxedVector.randomSplit(new double[] { train, test });
+		DataFrame[] splits = indexedFeature.randomSplit(new double[] { train, test });
 
 		this.trainingSet = splits[0];
 		this.testSet = splits[1];
 
 	}
 
-	/**
-	 * Feature selection
-	 * 
-	 */
-	public DataFrame featureSelection(DataFrame inputData) {
-
-		DataFrame sepalLengthIndx = new StringIndexer().setInputCol("sepallength").setOutputCol("sepallengthIndx")
-				.fit(inputData).transform(inputData);
-
-		DataFrame sepalWidthIndx = new StringIndexer().setInputCol("sepalwidth").setOutputCol("sepalwidthIndx")
-				.fit(sepalLengthIndx).transform(sepalLengthIndx);
-
-		DataFrame petalLengthIndx = new StringIndexer().setInputCol("petallength").setOutputCol("petallengthIndx")
-				.fit(sepalWidthIndx).transform(sepalWidthIndx);
-
-		DataFrame petalWidthIndx = new StringIndexer().setInputCol("petalwidth").setOutputCol("petalwidthIndx")
-				.fit(petalLengthIndx).transform(petalLengthIndx);
-
-		DataFrame classIndx = new StringIndexer().setInputCol("class").setOutputCol("classIndx").fit(petalWidthIndx)
-				.transform(petalWidthIndx);
-
-		this.vectorAssembler = new VectorAssembler()
-				.setInputCols(new String[] { "sepallengthIndx", "sepalwidthIndx", "petallengthIndx", "petalwidthIndx" })
-				.setOutputCol("features");
-
-		return classIndx;
-	}
 	
 	/**
 	 * Feature selection indexer based on the given column name
 	 * 
+	 * @param DataFrame inputData
+	 * @param String... columns - Array of string
+	 * @return DataFrame indexed attributes
 	 * */
 	public DataFrame featureIndexer(DataFrame inputData, String...columns){
+		
+		logger.info("Input data length : "+ inputData.count());
 		
 		DataFrame indexedFrame = inputData;
 		List<String> indexCols = new ArrayList<String>();
 		
 		
 		for(String column: columns){
-			indexedFrame = new StringIndexer().setInputCol(column).setOutputCol(column+"Indx").fit(indexedFrame).transform(indexedFrame);
-			indexCols.add(column+"Indx");
 			
+			indexedFrame = new StringIndexer()
+					.setInputCol(column)
+					.setOutputCol(column+"Indx")
+					.fit(indexedFrame)
+					.transform(indexedFrame);
+			
+			// Excluding the target attribute
+			if(!column.equals("class")){
+				indexCols.add(column+"Indx");
+			}
 		}
+		
 		
 		String[] indexArr = new String[indexCols.size()];
 		indexArr = indexCols.toArray(indexArr);
@@ -159,10 +145,13 @@ public class ModelLegoFitter {
 
 		Pipeline pipeline = new Pipeline();
 		// Chain the dataframes, transformers and estimators
-		if (modelName.equals("RandomForest")) {
+		if (modelName.equals("RandomForestRegressor")) {
+			pipeline.setStages(new PipelineStage[] { this.vectorAssembler,  getRandomForestRegressor(), getTransformer() });
+		} 
+		else if(modelName.equals("RandomForestClassifier")){
+			pipeline.setStages(new PipelineStage[] { this.vectorAssembler,  getRandomForestClassifier(), getTransformer() });
+		}else {
 			pipeline.setStages(new PipelineStage[] { this.vectorAssembler, getDecisionTree(), getTransformer() });
-		} else {
-			pipeline.setStages(new PipelineStage[] { this.vectorAssembler, getRandomForestRegressor(), getTransformer() });
 
 		}
 
@@ -178,33 +167,51 @@ public class ModelLegoFitter {
 	}
 
 	/**
-	 * Get classifier
+	 * Get DecicionTree classifier
 	 * 
 	 */
 	private DecisionTreeClassifier getDecisionTree() {
 
-		DecisionTreeClassifier decisionTree = new DecisionTreeClassifier().setLabelCol("classIndx").setMaxDepth(5)
-				.setMaxBins(50);
+		DecisionTreeClassifier decisionTree = new DecisionTreeClassifier()
+				.setLabelCol("classIndx")
+				.setMaxDepth(5)
+				.setMaxBins(186);
 
 		return decisionTree;
 
 	}
 	
-	 /** Get classifier
+	
+	/**
+	 * Classifier - RandomForest
+	 * 
+	 * @return object of RandomForestClassifer
+	 * */
+	private RandomForestClassifier getRandomForestClassifier(){
+		
+		RandomForestClassifier randomForestClassifier = new RandomForestClassifier().setLabelCol("classIndx").setMaxBins(186).setMaxDepth(5);
+		
+		return randomForestClassifier;
+	}
+	
+	 /** Get RandomforestRegressor
 	 * 
 	 */
 	private RandomForestRegressor getRandomForestRegressor() {
 
-		RandomForestRegressor randomForestRegressor = new RandomForestRegressor().setLabelCol("classIndx").setMaxBins(186);
+		RandomForestRegressor randomForestRegressor = new RandomForestRegressor().setLabelCol("classIndx").setMaxDepth(5).setMaxBins(186);
 		
 
 		return randomForestRegressor;
 
 	}
 
+	/** Get LogisticRegression
+	 * 
+	 */
 	private LogisticRegression getLogisticRegression() {
-		LogisticRegression lr = new LogisticRegression().setLabelCol("classIndx");
-		return lr;
+		LogisticRegression logReg = new LogisticRegression().setLabelCol("classIndx");
+		return logReg;
 	}
 
 	/**
@@ -233,14 +240,18 @@ public class ModelLegoFitter {
 		Evaluator evaluator;
 		
 		if(modelName.equals("RandomForestRegressor")){
-			 evaluator = new RegressionEvaluator().setLabelCol("classIndx").setPredictionCol("prediction").setMetricName("rmse");
+			 evaluator = new RegressionEvaluator()
+					 .setLabelCol("classIndx")
+					 .setPredictionCol("prediction")
+					 .setMetricName("rmse"); // Default is rmse
 		}
 		else{
-			evaluator = new MulticlassClassificationEvaluator().setLabelCol("classIndx")
-					.setPredictionCol("prediction").setMetricName("weightedPrecision");// "recall",
-																						// "precision",
-																						// "weightedRecall"
+			evaluator = new MulticlassClassificationEvaluator()
+					.setLabelCol("classIndx")
+					.setPredictionCol("prediction")
+					.setMetricName("precision");// "recall", "precision",  "weightedRecall"
 		}
+		
 		
 		return (evaluator.evaluate(predictions) * 100);
 

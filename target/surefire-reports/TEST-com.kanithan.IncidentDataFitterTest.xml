@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.kanithan.ModelLegoFitterTest" time="11.822" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.kanithan.IncidentDataFitterTest" time="10.488" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="E:\Space\kepler\programs\java\jdk1.8.0_73\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="E:\Space\titan\hdpSpace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2168921513873538390.tmp"/>
+    <property name="classworlds.conf" value="E:\Space\titan\hdpSpace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5732947733681138446.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="E:\Space\kepler\programs\java\jdk1.8.0_73\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:/Space/kepler/programs/java/bin/server;E:/Space/kepler/programs/java/bin;E:/Space/kepler/programs/java/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM\;E:\Space\kepler\programs\Python\Python35-32;E:\Space\kepler\programs\Python\Python35-32\Scripts;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;E:\Space\kepler\programs\apache-maven-3.2.2\bin;E:\Space\kepler\programs\java\jdk1.8.0_73\bin;E:\Space\kepler\programs\Git\cmd;E:\Space\kepler\programs\eclipse-neon;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="E:\Space\kepler\programs\java\jdk1.8.0_73\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s E:\Space\kepler\programs\apache-maven-3.2.2\conf\settings.xml clean package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s E:\Space\kepler\programs\apache-maven-3.2.2\conf\settings.xml clean compile test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.kanithan.ModelLegoFitterTest" name="testLoadData" time="11.822"/>
+  <testcase classname="com.kanithan.IncidentDataFitterTest" name="testEvaluate" time="10.488"/>
 </testsuite>

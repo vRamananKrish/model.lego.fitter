@@ -4,13 +4,16 @@ import java.io.Serializable;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
+
 
 import com.kanithan.classifier.ModelLegoFitter;
 
 /**
  * Unit test for simple App.
  */
+//@Ignore
 public class IncidentDataFitterTest implements Serializable {
 
 	/**
@@ -24,11 +27,13 @@ public class IncidentDataFitterTest implements Serializable {
 	@Before
 	public void setUp() {
 		
-		String fileName = this.getClass().getClassLoader().getResource("iris.csv").toString();
+		String fileName = this.getClass().getClassLoader().getResource("incidents-v1.0.csv").toString();
 		
 		System.out.println("File input : "+ fileName);
 		
-		String[] columns = {"sepallength", "sepalwidth", "petallength", "petalwidth", "class"};
+//		String[] columns = {"state","priority","impact","urgency","prev_state","ka_ref","closure_code", "class"};
+		
+		String[] columns = {"priority","ka_ref","closure_code", "class"};
 		
 		modelLegoFitter = new ModelLegoFitter(fileName, 0.8f, 0.2f, columns);
 	}
@@ -45,7 +50,7 @@ public class IncidentDataFitterTest implements Serializable {
 		
 		double dtAccuracy = modelLegoFitter.evaluateAndPredict("DecisionTree");
 
-		double rfAccuracy = modelLegoFitter.evaluateAndPredict("RandomForest");
+		double rfAccuracy = modelLegoFitter.evaluateAndPredict("RandomForestClassifier");
 
 		System.out.println("Precision Accuracy value of Decision Tree : " + dtAccuracy+", Random Forest:"+ rfAccuracy);
 	}

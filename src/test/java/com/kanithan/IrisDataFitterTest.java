@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.kanithan.classifier.ModelLegoFitter;
@@ -11,6 +12,7 @@ import com.kanithan.classifier.ModelLegoFitter;
 /**
  * Unit test for simple App.
  */
+@Ignore
 public class IrisDataFitterTest implements Serializable {
 
 	/**
@@ -45,7 +47,7 @@ public class IrisDataFitterTest implements Serializable {
 		
 		double dtAccuracy = modelLegoFitter.evaluateAndPredict("DecisionTree");
 
-		double rfAccuracy = modelLegoFitter.evaluateAndPredict("RandomForest");
+		double rfAccuracy = modelLegoFitter.evaluateAndPredict("RandomForestClassifier");
 
 		System.out.println("Precision Accuracy value of Decision Tree : " + dtAccuracy+", Random Forest:"+ rfAccuracy);
 	}
